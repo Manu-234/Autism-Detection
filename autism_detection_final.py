@@ -131,7 +131,7 @@ while True:
 
             cv2.putText(frame, text, (30, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
 
-    # Show output
+    # Output
     cv2.imshow("Autism Detection Combined", frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
